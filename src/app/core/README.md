@@ -1,6 +1,6 @@
 # Core Module
 
-Este diretório contém o módulo **Core** da aplicação Angular. Ele é responsável por fornecer serviços, interceptadores, guards e outras funcionalidades essenciais que serão utilizadas em toda a aplicação.
+Este diretório contém o módulo **Core** da aplicação. Ele é responsável por fornecer serviços, interceptadores, guards e outras funcionalidades essenciais que serão utilizadas em toda a aplicação.
 
 ## O que adicionar aqui?
 
@@ -10,7 +10,7 @@ Este diretório contém o módulo **Core** da aplicação Angular. Ele é respon
 - Configurações globais
 - Qualquer funcionalidade que deva ser instanciada uma única vez
 
-## Estrutura sugerida
+## Estrutura
 
 ```
 core/

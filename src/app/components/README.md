@@ -1,8 +1,8 @@
 # Componentes do Projeto
 
-Este diretório contém os componentes reutilizáveis da aplicação Angular.
+Este diretório contém os componentes reutilizáveis da aplicação.
 
-## Estrutura Sugerida
+## Estrutura
 
 - Cada componente deve ter sua própria pasta.
 - Inclua arquivos `.ts`, `.html`, `.scss` e `.spec.ts` para cada componente.
