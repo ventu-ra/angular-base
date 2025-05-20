@@ -1,0 +1,26 @@
+name: CI - Testes com Bun
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    name: 🧪 Testes Unitários
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout do código
+        uses: actions/checkout@v3
+
+      - name: 🟢 Instalar Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: 📦 Instalar dependências com Bun
+        run: bun install
+
+      - name: ✅ Rodar testes unitários
+        run: bun run test -- --watch=false --browsers=ChromeHeadless --no-progress
